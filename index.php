@@ -19,7 +19,6 @@ function translate_woo_checkout_wpml($translated) {
 
     $my_current_lang = apply_filters('wpml_current_language', NULL);
 
-   if (strpos($_SERVER['REQUEST_URI'], '/pokladna/') !== false OR strpos($_SERVER['REQUEST_URI'], '/zur-kasse/') !== false) {
 
     $translations = array(
         // Translation for the Slovak version
